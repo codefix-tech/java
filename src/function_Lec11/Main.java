@@ -4,6 +4,7 @@ public class Main{
          sayHello("Nishant");
          int num = getNumber();
          System.out.println(num);
+         System.out.println(multiply(2,4));
     }
 
     // NO input no output 
