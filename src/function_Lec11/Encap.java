@@ -25,3 +25,20 @@ class BankAccount {
         return balance;
     }
 }
+
+class Students{
+
+   private String name;
+   private int age;
+   private int rollNumber;
+   private String college;
+   
+   Students(String name, int age , int rollNumber, String college){
+    this.name=name;
+    this.age=age;
+    this.rollNumber=rollNumber;
+    this.college=college;
+    
+   }
+
+}
