@@ -26,18 +26,62 @@ public class Print{
             System.out.print(i + " ");
         }
 
+
+        // reverse array 
+        System.out.println(" ");
+
+        System.out.print("reverse element : ");
+
+        for(int i = arr.length - 1; i >= 0; i--){
+            System.out.print(arr[i] + " ");
+        }
+
+
+        // print even and odd numbers
+        System.out.println(" ");
+        
+        System.out.print("Even numbers: "); 
+        for(int k = 0 ; k < arr.length; k++){
+            if(arr[k] % 2 == 0){
+                System.out.print(arr[k] + " ");
+            }
+        }
+        System.out.println();
+
+        System.out.print("Odd numbers: ");
+        for(int k = 0 ; k < arr.length; k++){
+            if(arr[k] % 2 != 0){
+                System.out.print(arr[k] + " ");
+            }
+        }
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          System.out.println(" ");
 
 
         System.out.print("Element of array using while loop : ");
-        int i = 0;
-        while(i< arr.length){
-            System.out.print(arr[i] + " ");
-            i++;
+        int j = 0;
+        while(j< arr.length){
+            System.out.print(arr[j] + " ");
+            j++;
             
         }
 
-       
         
     }
 }
