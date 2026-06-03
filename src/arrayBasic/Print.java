@@ -15,10 +15,29 @@ public class Print{
         for(int i = 0; i<arr.length;i++){
                        
             System.out.print(arr[i] + " ");
-
-            
-
         }
+           
+           System.out.println(" ");
+
+            System.out.print("Indexes of array : ");
+      
+        for(int i = 0; i<arr.length;i++){
+                       
+            System.out.print(i + " ");
+        }
+
+         System.out.println(" ");
+
+
+        System.out.print("Element of array using while loop : ");
+        int i = 0;
+        while(i< arr.length){
+            System.out.print(arr[i] + " ");
+            i++;
+            
+        }
+
+       
         
     }
 }
