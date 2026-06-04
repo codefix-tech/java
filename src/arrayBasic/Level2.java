@@ -9,6 +9,7 @@ public class Level2{
         int countGreFive = 0;
         int countLessFive = 0;
         int countMulTwo = 0;
+        int countMulThree = 0;
 
         System.out.print("Even numbers: ");
         for (int i = 0; i < arr.length; i++) {
@@ -101,6 +102,18 @@ public class Level2{
             }
         }
 
+
+
+
+         System.out.println();
+        System.out.print("multiple of three : ");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 3 == 0) {
+                System.out.print(arr[i] + " ");
+                countMulThree++;
+            }
+        }
+
          
 
 
@@ -124,6 +137,7 @@ public class Level2{
         System.out.println("Count of greater than five numbers: " + countGreFive);
         System.out.println("Count of less than five numbers: " + countGreFive);
         System.out.println("cout of multiple of two : " + countMulTwo);
+        System.out.println("count of multiple of three : " + countMulThree);
         
         
     }
