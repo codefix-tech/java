@@ -1,10 +1,11 @@
 public class Level2{
     public static void main(String [] arg){
-        int[] arr = {-2,1,2,3,4,5,6,7,8};
+        int[] arr = {-2,1,2,3,4,5,6,7,8,0,0,00};
         int countEven = 0;
         int countNotEven = 0;
         int countPos = 0;
         int countNeg = 0;
+        int countZero = 0;
 
         System.out.print("Even numbers: ");
         for (int i = 0; i < arr.length; i++) {
@@ -40,6 +41,16 @@ public class Level2{
                 countNeg++;
             }
         }
+        
+        System.out.println();
+        System.out.print("Zero numbers: ");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) {
+                System.out.print(arr[i] + " ");
+                countZero++;
+            }
+        }
+
 
 
 
@@ -50,7 +61,9 @@ public class Level2{
         System.out.println();
         System.out.println("Count of even numbers: " + countEven);
         System.out.println("Count of non-even (odd) numbers: " + countNotEven);
-         System.out.println("Count of positive numbers: " + countPos);
+        System.out.println("Count of positive numbers: " + countPos);
         System.out.println("Count of negative numbers: " + countNeg);
+         System.out.println("Count of zero numbers: " + countZero);
+        
     }
 }
