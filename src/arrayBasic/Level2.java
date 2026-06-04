@@ -6,6 +6,7 @@ public class Level2{
         int countPos = 0;
         int countNeg = 0;
         int countZero = 0;
+        int countGreFive = 0;
 
         System.out.print("Even numbers: ");
         for (int i = 0; i < arr.length; i++) {
@@ -50,6 +51,17 @@ public class Level2{
                 countZero++;
             }
         }
+
+        System.out.println();
+        System.out.print("Zero numbers: ");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > 5) {
+                System.out.print(arr[i] + " ");
+                countGreFive++;
+            }
+        }
+
+        
 
 
 
