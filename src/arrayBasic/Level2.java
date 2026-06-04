@@ -10,6 +10,7 @@ public class Level2{
         int countLessFive = 0;
         int countMulTwo = 0;
         int countMulThree = 0;
+        int countBet = 0;
 
         System.out.print("Even numbers: ");
         for (int i = 0; i < arr.length; i++) {
@@ -114,6 +115,16 @@ public class Level2{
             }
         }
 
+
+
+         System.out.println();
+        System.out.print("between 3 and 7 number  : ");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] >= 3 && arr[i] <=7) {
+                System.out.print(arr[i] + " ");
+                countBet++;
+            }
+        }
          
 
 
@@ -138,6 +149,7 @@ public class Level2{
         System.out.println("Count of less than five numbers: " + countGreFive);
         System.out.println("cout of multiple of two : " + countMulTwo);
         System.out.println("count of multiple of three : " + countMulThree);
+        System.out.println("count number between 3 and 7 : " + countBet);
         
         
     }
