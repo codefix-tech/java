@@ -14,6 +14,25 @@ This repository contains my Java learning journey while following the Coder Army
 
 ## Progress Tracker
 
+## Basic Logic Building 
+* Easy Questions
+* Print numbers from 1 to N
+* Print N to 1
+* Sum of first N numbers
+* Count digits in a number
+* Reverse a number
+* Check palindrome number
+* Check even/odd
+* Check prime number
+* Print all primes from 1 to N
+* Find GCD of two numbers
+* Find LCM
+* Fibonacci series
+* Armstrong number
+* Leap year
+* Decimal to binary
+* Binary to decimal
+
 ### Java Basics
 
 * [ ] Introduction to Java
