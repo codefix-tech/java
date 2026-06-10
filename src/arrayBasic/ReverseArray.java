@@ -5,7 +5,9 @@ public class ReverseArray{
 
         int n = arr.length;
 
-        int i = 0 , j = n-1;
+     //   int i = 2, j = 5;  for reverse part of array
+
+        int i = 0, j = n-1;
         while(i<j){
             int temp = arr[i];
              arr[i] = arr[j];
