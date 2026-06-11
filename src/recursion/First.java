@@ -8,7 +8,7 @@ public class First{
     }
    static void fun(){
         System.out.print(1);
-        break;
+        
         fun();
        
     }
