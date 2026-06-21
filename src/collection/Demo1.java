@@ -6,5 +6,15 @@ public class Demo1{
         c.add(2);
         c.add(3);
 
+        // size()
+        int n = c.size();
+        System.out.println(n);
+        System.out.println(c.isEmpty());
+       // System.out.println(c.contains());
+
+
+
+
+
     }
 }
