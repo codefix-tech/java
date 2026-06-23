@@ -22,3 +22,5 @@ class Student{
        return (name + " " + age );
     }
 }
+
+// stick main
